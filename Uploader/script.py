@@ -135,6 +135,12 @@ More Info Contact: @TeleRoid14
         InlineKeyboardButton('📛 Close', callback_data='close')
         ]]
     )
+    DONATE_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('🏡 Home', callback_data='home'),
+        InlineKeyboardButton('📛 Close', callback_data='close')
+        ]]
+    )
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
     IFLONG_FILE_NAME = " Only 64 characters can be named . "
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
