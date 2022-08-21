@@ -31,6 +31,12 @@ async def button(bot, update):
             reply_markup=Translation.HELP_BUTTONS,
             #disable_web_page_preview=True
         )
+    elif update.data == "donate":
+        await update.message.edit(
+            text=Translation.PLANS,
+            reply_markup=Translation.DONATE_BUTTONS,
+            #disable_web_page_preview=True
+        )
     elif update.data == "about":
         await update.message.edit(
             text=Translation.ABOUT_TEXT,
